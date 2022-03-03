@@ -27,7 +27,7 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     if (_function == 0) {
         a += -1
-        basic.showNumber(b)
+        basic.showNumber(a)
     } else {
         if (_function == 1) {
             b += -1
